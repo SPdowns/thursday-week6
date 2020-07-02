@@ -19,7 +19,12 @@ $(document).ready(function() {
 
     function getElements(responseParam) {
       if (responseParam) {
-        $('#output-para').text(responseParam.bikes[0].date_stolen);
+        $('#output-para').append("<br><img src='" + responseParam.bikes[0].thumb + "'><br>")
+        $('#output-para').append("Date Stolen: " + responseParam.bikes[0].date_stolen + "<br>");
+        $('#output-para').append("Year: " + responseParam.bikes[0].year + "<br>");
+        $('#output-para').append("Manufacturer: " + responseParam.bikes[0].manufacturer_name + "<br>");
+        $('#output-para').append("Model " + responseParam.bikes[0].frame_model + "<br>");
+        $('#output-para').append("Frame Color: " + responseParam.bikes[0].frame_colors + "<br>");
       } else {
         $('#output-para').text('In space, no one can hear your response');
       }
