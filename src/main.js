@@ -11,6 +11,10 @@ $(document).ready(function () {
     getElements(response);
   })();
   function getElements(response) {
-    
+    if (response) {
+      $('#output-para').text(response.bikes[0].date_stolen)
+    } else {
+      $('#output-para').text('In space, no one can hear your response')
+    }
   }
 });

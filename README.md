@@ -6,8 +6,16 @@
 ## Description
 
 ## Specifications
-**Behavior 1**: 
-  * Input: 
+**Program will get a response from the API of Bike Index**: 
+  * Input: fetch API
+  * Output: jsonified Bike List
+
+**Program will take a zipcode from the user and return results within 10 miles**: 
+  * Input: 97214
+  * Output: "16 bikes found"
+
+**Results will include make**: 
+  * Input: 97214
   * Output: 
 
 
