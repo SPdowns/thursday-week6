@@ -14,10 +14,21 @@
   * Input: 97214
   * Output: "16 bikes found"
 
-**Results will include make**: 
+**Results will include Make**:
   * Input: 97214
-  * Output: 
+  * Output: Schwinn
 
+**Results will include Model**: 
+  * Input: 97214
+  * Output: SuperBike
+
+**Results will include color**: 
+  * Input: 97214
+  * Output: Silver
+
+**Results will include year**: 
+  * Input: 97214
+  * Output: 1989
 
 ## Known Bugs
 * No known bugs.   
